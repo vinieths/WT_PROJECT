@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Curies.css">
+    <title>Document</title>
+    <style>
+        .place {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .place-img {
+            flex: 1;
+        }
+
+        .place-img img {
+            width: 250px;
+        }
+
+        .place-info {
+            flex: 2;
+            padding: 0 20px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .footer img {
+            width: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<script>
+    function bigImg(x) {
+        x.style.width = "285px";
+    }
+
+    function normalImg(x) {
+        x.style.width = "250px";
+    }
+
+    function webName() {
+        document.getElementById("webname").innerHTML = "RIDER";
+    }
+</script>
+
+<body>
+    <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Curies</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\xampp\htdocs\Vinieth\homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\xampp\htdocs\Vinieth\offroad.html">Offroad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\xampp\htdocs\Vinieth\Sport.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\xampp\htdocs\Vinieth\Standard.html">Standard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\xampp\htdocs\Vinieth\Scooter.html">Scooty</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\xampp\htdocs\Vinieth\lineup.html">Lineup</a>
+                </li>
+            </ul>
+        </div>
+        <a href="C:\xampp\htdocs\Vinieth\login.html" class="btn btn-primary">login</a>
+    </nav>
+
+    <div class="container">
+        <div class="list-container">
+            <div class="left-col">
+                <h2>Curies</h2>
+                <div class="place">
+                    <div class="place-img">
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="re-hunter-350-mn.webp">
+                    </div>
+                    <div class="place-info">
+                        <h2>Royal Enfield humter 350</h2>
+                        <p><br />The Royal Enfield Hunter 350 is powered by 349.34cc BS6 engine which develops a power
+                            of 20.2 bhp and a torque of 27 Nm.</p>
+                        <br /><a href="C:\xampp\htdocs\Vinieth\curies2page.html" class="trip-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="place">
+                    <div class="place-img">
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="Jawa 42 Bobber.webp">
+                    </div>
+                    <div class="place-info">
+                        <h2>Jawa 42 Bobber</h2>
+                        <p><br /> aspirational styling and a potent motor. It also gets a nice looking instrument
+                            cluster that displays a lot of ride data.
+                        </p>
+                        <br /><a href="C:\xampp\htdocs\Vinieth\curies2page.html" class="trip-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="place">
+                    <div class="place-img">
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="Harleydavidson-iron-883.webp">
+                    </div>
+                    <div class="place-info">
+                        <h2>Harleydavidson-iron-883</h2>
+                        <p><br />WORK IN SILENCE,Let your Harley Davidson make the noise.
+                        </p>
+                        <br /><a href="C:\xampp\htdocs\Vinieth\curies2page.html" class="trip-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="place">
+                    <div class="place-img">
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="QJ Motor SRC 250.webp">
+                    </div>
+                    <div class="place-info">
+                        <h2>QJ Motor SRC 250</h2>
+                        <p><br />Under the tagline of an Always Forward mindset.
+                        </p>
+                        <br /><a href="C:\xampp\htdocs\Vinieth\curies2page.html" class="trip-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="place">
+                    <div class="place-img">
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="tvs-apache-rtr-160-4v.webp">
+                    </div>
+                    <div class="place-info">
+                        <h2>TVS Apache RTR 160</h2>
+                        <p><br />Uncover the racer in you.
+                        </p>
+                        <br /><a href="C:\xampp\htdocs\Vinieth\curies2page.html" class="trip-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <a href="https://www.facebook.com/"><img src="facebook.svg"></a>
+                    <a href="https://twitter.com/"><img src="twitter.svg"></a>
+                    <a href="https://www.instagram.com/"><img src="instagram.svg"></a>
+                    <hr>
+                    <p>Copyright @ 2023, BIKER 250</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

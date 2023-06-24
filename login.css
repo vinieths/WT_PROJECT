@@ -1,0 +1,45 @@
+body{
+    background: url('web7.jpg');
+    background-size: 100%;
+}
+.regform{
+    width: 400px;
+    margin: 130px auto;
+    padding: 5px 10px 15px;
+    background-color: rgba(169, 227, 237, 0.5);
+    color: rgb(11, 25, 37);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.regform h3{
+    text-align: center;
+    color: rgb(49, 36, 46);
+}
+.regform label{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 0.7em;
+    border: 1px solid rgb(153, 203, 221);
+    box-shadow: 2px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    margin: 5px 0px 5px;
+}
+input:focus{
+    background-color: #f3eaf0;
+}
+.Button{
+    text-align: center;
+}
+Button{
+    background-color: #f0e785;
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #94dadf;
+}

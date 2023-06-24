@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bike Booking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Bike Booking</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="bike">Bike Type:</label>
+                <select class="form-control" id="bike">
+                    <option>Select a bike type</option>
+                    <option>Mountain Bike</option>
+                    <option>Road Bike</option>
+                    <option>Hybrid Bike</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="name">Bike Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter the bike name">
+            </div>
+            <div class="form-group">
+                <label for="date">Booking Date:</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+            <div class="form-group">
+                <label for="days">Number of Days:</label>
+                <input type="number" class="form-control" id="days" placeholder="Enter the number of days" min="1">
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount per Day:</label>
+                <input type="text" class="form-control" id="amount" value="1000" disabled>
+            </div>
+            <div class="form-group">
+                <label for="total">Total Amount:</label>
+                <input type="text" class="form-control" id="total" disabled>
+            </div>
+            <div class="form-group">
+                <label for="payment">Payment Method:</label>
+                <select class="form-control" id="payment">
+                    <option value="cash">Cash on Delivery</option>
+                    <option value="online">Online Payment</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Book Now</button>
+            <button type="button" class="btn btn-secondary">Cancel</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
